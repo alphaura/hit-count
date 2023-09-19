@@ -15,13 +15,6 @@ body {
     margin: 0;
 }
 
-.bgr-img {
-    position: relative;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    
-}
-
 .container {
     background-color: white;
     border: 10px solid #DBF227;
@@ -70,3 +63,53 @@ button {
 
 }
 
+@media ( min-width: 850px ) {
+    .container {
+        background-color: white;
+        border: 10px solid #DBF227;
+        margin: 0 auto;
+        border-radius: 2rem;
+        min-width: 50rem;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    
+    }
+    
+    .flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    button {
+        border: none;
+        padding: 1rem 0;
+        color: white;
+        font-weight: bold;
+        width: 15rem;
+        margin: 1rem;
+        border-radius: .5rem;
+        font-size: 2rem;
+    
+    }
+    
+    #increment-btn {
+        background: darkred;
+    }
+    
+    #save-btn {
+        background: darkgreen;
+    }
+    
+    #save-el {
+        font-size: 2rem;
+    
+    }
+}
