@@ -64,20 +64,13 @@ button {
 }
 
 @media ( min-width: 850px ) {
-    .container {
-        background-color: white;
-        border: 10px solid #DBF227;
-        margin: 0 auto;
-        border-radius: 2rem;
-        min-width: 50rem;
-    }
     
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     
     }
     
@@ -89,27 +82,12 @@ button {
     }
     
     button {
-        border: none;
-        padding: 1rem 0;
-        color: white;
-        font-weight: bold;
-        width: 15rem;
-        margin: 1rem;
-        border-radius: .5rem;
-        font-size: 2rem;
+        width: 12rem;
+        font-size: 1rem;
     
-    }
-    
-    #increment-btn {
-        background: darkred;
-    }
-    
-    #save-btn {
-        background: darkgreen;
     }
     
     #save-el {
-        font-size: 2rem;
-    
+        font-size: 1rem;
     }
 }
