@@ -52,6 +52,7 @@ button {
     border-radius: .8rem;
     border: none;
     min-width: 10rem;
+    cursor: pointer;
 }
 
 #increment-btn {
